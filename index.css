@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(90deg,#c5accb,#a3e9e9);
+}
+.guids{
+  font-size: 4.5vh;
+}
+.menu{
+  font-size: 5vh;
+}
+em{
+  font-size: 5vh;
+}
+.comma{
+  color: rgb(252, 15, 7);
+  font-size: 8vh;
+}
+.blue{
+  color: blue;
+  
+}
+.red{
+  color: red;
+}
+.enter{
+  height: 45px;
+  width: 75px;
+  
+}
+a{
+  font-size: 20px;
+  text-decoration: none;
+  font-family: roboto;
+}
+#btn{display: flex;
+  justify-content: center;
+}
+#h2{
+    font-family: cursive;
+    font-size: 7vh;
+    animation-name: color;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes color {
+    20% {
+      color: rgb(123, 249, 172);
+  
+      opacity: 0.3;
+    }
+    40% {
+      color: rgb(226, 84, 33);
+      opacity: 0.6;
+    }
+    100% {
+      color: rgb(198, 146, 198);
+      opacity: 1;
+    }
+  }
